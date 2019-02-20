@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewBag.Title = "Dracula";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Dracula</h2>
+<br />
+<br />
+<div style="display:inline-block">
+    <img class="img-responsive " src="~//file//dracula.jpg" alt="">
+ 
+    <br />
+    @Html.ActionLink("Download", "downloadDracula", "Home",null, new { @class="btn btn-primary btn-lg"})
+</div>
+
+

@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "aroundtheworld";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Around The World In 80 Days</h2>
+<br />
+<br />
+<div style="display:inline-block">
+    <img class="img-responsive " src="~//file//around the world.jpg" alt="">
+
+    <br />
+    @Html.ActionLink("Download", "downloadaroundtheworld", "Home", null, new { @class = "btn btn-primary btn-lg" })
+</div>
+

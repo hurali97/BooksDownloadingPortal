@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "fairytales";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<h2>Andersen's Fairy Tales</h2>
+<br />
+<br />
+<div style="display:inline-block">
+    <img class="img-responsive " src="~//file//fairytale.jpg" alt="">
+
+    <br />
+    @Html.ActionLink("Download", "downloadFairyTales", "Home", null, new { @class = "btn btn-primary btn-lg" })
+</div>
+

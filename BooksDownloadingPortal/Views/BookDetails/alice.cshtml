@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "alice";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<br />
+<h2>Alice's Adventure In WonderLand</h2>
+<br />
+<br />
+<div style="display:inline-block">
+    <img class="img-responsive " src="~//file//alices.jpg" alt="">
+
+    <br />
+    @Html.ActionLink("Download", "downloadalice", "Home", null, new { @class = "btn btn-primary btn-lg" })
+</div>
+
